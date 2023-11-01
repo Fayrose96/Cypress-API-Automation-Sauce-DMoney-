@@ -27,10 +27,9 @@ Before running the tests, make sure to configure the base URL of your API. This 
  Open the `cypress.json` file and update the `baseUrl` with the URL of your API:
 
 ```json
-{
+
   "baseUrl": "https://your-api-base-url.com"
-}
-   
+
 
 ## Running the Tests
 
