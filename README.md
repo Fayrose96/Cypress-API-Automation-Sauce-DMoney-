@@ -18,7 +18,7 @@ Before running the tests, ensure that you have the following software and tools 
 2. cd cypress-api-automation
 3. npm install
 
-## Configuration
+## Installation
 
 Before running the tests, make sure to configure the base URL of your API. This can be done by editing the `cypress.json` file.
 
