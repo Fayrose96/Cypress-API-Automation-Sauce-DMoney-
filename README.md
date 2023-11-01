@@ -36,7 +36,7 @@ To run the API automation tests, follow these steps:
 
 1. Clone this repository to your local machine:
  ``shell
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Fayrose96
 
 2. Navigate to the project directory:
 ``shell
