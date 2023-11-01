@@ -13,9 +13,9 @@ Before running the tests, ensure that you have the following software and tools 
 
 1. Clone this repository to your local machine:
 
-   ```shell
+   `` shell
    git clone https://github.com/yourusername/your-repo.git
-2. cd cypress-api-automation
+2. cd cypress-API-automation
 3. npm install
 
 ## Configaration
@@ -24,29 +24,37 @@ Before running the tests, make sure to configure the base URL of your API. This 
 
 ## Configure the Base URL
 
- Open the `cypress.json` file and update the `baseUrl` with the URL of your API:
+ Open the `cypress.json` file and update the `baseUrl` with the URL of your API,
+   ``json
+{
+  "baseUrl": "https://your-api-base-url.com"
+
 
 ## Running the Tests
 
 To run the API automation tests, follow these steps:
 
-1.Clone this repository to your local machine:
- ```shell
+1. Clone this repository to your local machine:
+ ``shell
    git clone https://github.com/yourusername/your-repo.git
 
-2.Navigate to the project directory:
-```shell
-   cd cypress-api-automation
+2. Navigate to the project directory:
+``shell
+   cd cypress-API-automation
 
-3.Install project dependencies:
-```shell
+3. Install project dependencies:
+``shell
   npm install
 
-4.Open the Cypress Test Runner:
-```shell
-  npm run cypress:open
+4. Open the Cypress Test Runner:
+``shell
+  npm run cypress: open
 
-5.In the Cypress Test Runner, select the test file you want to run (e.g., "login.spec.js" or "create-user.spec.js").
+5. In the Cypress Test Runner, select the test file you want to run (e.g., "login.spec.js" or "create-user.spec.js").
 
-6.The tests will execute, and you can view the results in the Cypress Test Runner interface.
+6. The tests will execute, and you can view the results in the Cypress Test Runner interface.
 
+## Test Reports
+
+After running the tests, you can find the test results, videos, and reports in the cypress/reports directory.
+![image](https://github.com/Fayrose96/Cypress-API-Automation-Sauce-DMoney-/assets/143695839/67df5bac-2915-4b18-ac3b-284c0a290db1)
